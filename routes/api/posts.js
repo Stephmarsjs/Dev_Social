@@ -6,4 +6,4 @@ const router = express.Router();
 //@acess    Public
 router.get('/', (req, res) => res.send('Posts route'));
 
-Module.exports= router;
+module.exports= router;
