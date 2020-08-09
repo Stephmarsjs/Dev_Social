@@ -60,7 +60,7 @@
 
 		  jwt.sign(
 			payload, 
-			config.gegt('jwtToken'),
+			config.get('jwtToken'),
 			{ expiresIn: 360000 },
 			(err, token) => {
 				if(err) throw err;
