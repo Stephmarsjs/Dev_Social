@@ -8,12 +8,15 @@ const ProfileSchema = new mongoose.Schema({
     company: {
         type: String
     },
+    website: {
+        type: String
+    },
     location: {
         type: String
     },
     status: {
         type: String,
-        required: true
+        
     },
     skills: {
 
@@ -87,7 +90,7 @@ const ProfileSchema = new mongoose.Schema({
         }
     ],
     social: {
-        yotube: {
+        youtube: {
             type: String
         },
         twitter: {
